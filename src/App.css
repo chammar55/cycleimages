@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Makes sure the container fills the viewport height */
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adjust this value as needed */
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Add your button styles here */
+.button-1 {
+  background-color: blue;
+}
+
+.button-2 {
+  background-color: red;
+}
+
+.button-3 {
+  background-color: black;
+}
+
+.button-4 {
+  background-color: orange;
+}
+
+.button-5 {
+  background-color: purple;
+}
