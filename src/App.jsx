@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./App.css"; // Import the CSS file
 
-const generateImageURL = (index) => `/assets/images/pic${index + 1}.png`;
-// const generateImageURL = (index) => `../public/images/pic${index + 1}.png`;
+// const generateImageURL = (index) => `/assets/images/pic${index + 1}.png`;
+const generateImageURL = (index) =>
+  `../public/assets/images/pic${index + 1}.png`;
 
 function App() {
   const [selectedButtonIndex, setSelectedButtonIndex] = useState(0);
