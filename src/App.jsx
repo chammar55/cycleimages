@@ -37,7 +37,7 @@ const buttonStyles = [
 ];
 
 function App() {
-  const [selectedButtonIndex, setSelectedButtonIndex] = useState(null);
+  const [selectedButtonIndex, setSelectedButtonIndex] = useState(0);
 
   // Handle button click to set the selected button index
   const handleButtonClick = (index) => {
